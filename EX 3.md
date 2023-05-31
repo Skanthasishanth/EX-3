@@ -13,7 +13,7 @@
 ## 2. Get the frame size from the user
 ## 3. To create the frame based on the user request.
 ## 4. To send frames to server from the client side.
-## 5. If your frames reach the server it will send ACK signal to client otherwise it will sendNACK signal to client.
+## 5. If your frames reach the server it will send ACK signal to client otherwise it will send NACK signal to client.
 
 ## 6. Stop the program
 
@@ -51,10 +51,6 @@ while True:
 	s.send("acknowledgement recieved from the server".encode())
 ```
 
-# SERVER OUTPUT :
-![server](https://github.com/Skanthasishanth/EX-3/assets/118298456/a85685eb-c952-4962-a370-b8df9b57682d)
-
-
 
 
 # CLIENT OUTPUT :
@@ -62,6 +58,8 @@ while True:
 
 
 ![client](https://github.com/Skanthasishanth/EX-3/assets/118298456/5ed02916-124f-45a3-b8c7-838145d81b98)
+# SERVER OUTPUT :
+![server](https://github.com/Skanthasishanth/EX-3/assets/118298456/a85685eb-c952-4962-a370-b8df9b57682d)
 
 # RESULT :
 ## Thus, python program to perform stop and wait protocol was successfully executed.
